@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowclient",
+  "version": "${version}",
+  "name": "Shadow Client",
+  "description": "A lightweight red-and-black PvP client: Mod Menu, HUD editor, 20+ HUD/utility modules and performance tweaks. Created by ItzZShad0w_.",
+  "authors": ["ItzZShad0w_"],
+  "license": "MIT",
+  "icon": "assets/shadowclient/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.shadowclient.ShadowClient"] },
+  "mixins": ["shadowclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

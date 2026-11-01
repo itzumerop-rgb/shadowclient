@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.shadowclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "CameraMixin",
+    "KeyboardInputMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

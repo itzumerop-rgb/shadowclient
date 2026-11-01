@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "theme": { "accent": 15021370, "snap": true, "gridSize": 5, "gridLayout": true },
+  "modules": {
+    "fps":        { "enabled": true },
+    "cps":        { "enabled": true },
+    "keystrokes": { "enabled": true },
+    "toggle_sprint": { "enabled": true },
+    "coords":     { "enabled": true },
+    "watermark":  { "enabled": true },
+    "potions":    { "enabled": true },
+    "armor_durability": { "enabled": true },
+    "zoom":       { "enabled": true },
+    "freelook":   { "enabled": true },
+    "toggle_hud": { "enabled": true },
+    "hud_optimizer": { "enabled": true },
+    "animations": { "enabled": true }
+  }
+}
